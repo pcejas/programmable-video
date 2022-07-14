@@ -18,6 +18,12 @@ dependencies:
     path: ../programmable_video_platform_interface
   collection: ^1.16.0
 
+dependency_overrides:
+  twilio_programmable_video_platform_interface:
+    git:
+      url: https://github.com/pcejas/programmable-video.git
+      path: programmable_video_platform_interface
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
